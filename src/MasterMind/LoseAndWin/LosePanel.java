@@ -13,7 +13,7 @@ import java.io.IOException;
 public class LosePanel extends JPanel {
 
     /** some const size */
-    final int SIZE_RECT = 35;
+    private final int SIZE_RECT = 35;
 
     /** copy of array of random colors that generate by computer */
     private Color[] answer;
